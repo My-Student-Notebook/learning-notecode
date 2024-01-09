@@ -1,1 +1,1 @@
-# js-ts-ecosystem-notecode
+# learning-notecode
