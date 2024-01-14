@@ -1,0 +1,26 @@
+debug = processo de busca de um bug.
+
+=> metódo I => var_dump()
+=> metódo II => Xdebug
+
+pilha de execução (stack trace)
+
+profiling => verficação da performace de uma aplicação
+
+Webgrind
+
+Breakpoints
+
+Breakpoints Condicionais
+
+Step Over
+
+Step Into
+
+Step Out
+
+Watches =>visualiza um objeto separadamente
+
+Evaluate Expression => avalia espressões sem continuar o código
+
+Remote Debugging

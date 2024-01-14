@@ -1,0 +1,26 @@
+Minificação: redução do tamanho de arquivos.
+
+Gulp: redução automática do tamanho de arquivos.
+
+GZIP: compacta arquivos cliente-servidor.
+
+Servidor HTTP local.
+
+Brotli
+
+Imagens Gigantes em tamanho:
+
+LOSSLESS => sem perdas.
+LOSSY => com perdas.
+
+Concatenação de requests.
+
+Trade-offs
+
+SVG e Sprites.
+
+Requestes em vários domínios.
+
+Headers HTTP.
+
+WPO Stats

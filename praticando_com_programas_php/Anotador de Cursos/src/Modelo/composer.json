@@ -1,0 +1,16 @@
+{
+"name": "humbanew/buscador-cursos",
+  "description": "Projeto que cria arquivos para anotar cursos realizados",
+  "type": "library",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Humberto Bravo",
+      "email": "humbandroid@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "8"
+  }
+}

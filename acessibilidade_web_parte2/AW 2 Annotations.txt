@@ -1,0 +1,15 @@
+NVDA => leitor de tela.
+
+Navegação por cabeçalhos.
+
+Evitar varios h1s quando se trata de acessibilidade.
+
+Alt => ser o mais descritivo possível.
+
+lang muda a linguagem do projeto.
+
+CSS influencia na leitura do NVDA.
+
+Evitar esconder demais as estruturas.
+
+Evitar não descrever o gênero.

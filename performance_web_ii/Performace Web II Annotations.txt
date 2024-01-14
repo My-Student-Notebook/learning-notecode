@@ -1,0 +1,45 @@
+Webpagetest;
+
+Critical Path: entre usúario ver uma página em branco ou redenizada.
+
+recursos blocantes
+
+onload: adia o download do JS.
+
+asysc => html => deixa o JS assíncrono.
+
+Lazy Load: atrasa ou deixa o recurso para download depois.
+
+throttle.
+
+RTT.
+
+RRC.
+
+TCP.
+
+setTimeout();
+
+httparchive.org .
+
+carregamento inicial => 1 RTT Render.
+
+HTTP/2 => melhorias de tráfego de dados.
+
+server push.
+
+Resource Hints.
+
+prefetch.
+
+preconnect.
+
+preload.
+
+dns-prefecth.
+
+prerender.
+
+page speed insights.
+
+performace budget.

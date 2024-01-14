@@ -1,0 +1,67 @@
+tag SVG => <svg></svg>
+
+é uma linguagem de marcação. 
+
+é feito por calculos e nao em pixels.
+
+__ATRIBUTOS__
+
+cx=" "  => coordenada x.    
+cy=" "  => coordenada y.
+r=" "    => raio.
+rx =" " => raio coordenada x.
+ry=" " => raio coordenada y.
+stroke=" "  => borda.
+stroke-width=" " =>  borda lagura.
+fill=" " => preenchimento.
+
+geração de arquivos SVGs
+
+<defs> => definições.
+<linearGradient> => gradientes lineares.
+<g> => grupos.
+<rect> => retângulos.
+<polygon> => polígonos.
+<circle> => círculos.
+<ellipse> => elipses.
+<line> => linhas.
+<polygon> => polígonos.
+<polyline> => poli linha.
+<path> => formas livres.
+<filter> => filtros.
+
+__ATRIBUTOS (PATH)__
+
+M = move até
+
+L = linha até
+
+H = linha horizontal até
+
+V = linha vertical até
+
+C = curva até
+
+S = curva suave até
+
+Q = curva de Bézier
+
+T = curva de Bézier suave
+
+A = arco elíptico
+
+Z = fecha path
+
+CSS interno: as propriedades de CSS geradas automaticamente na conversão pelo Illustrator vão aparecer no código dentro da tag
+
+Estilo incorporado: as propriedades de CSS são incorporadas dentro de cada tag, usando o atributo 
+
+Atributos de apresentação: Parecido com o estilo incorporado, porém aqui cada propriedade de CSS é adicionada como um atributo de HTML 
+
+view box / view port.
+
+SVG Icons.
+
+arquivos externos.
+
+filtros.

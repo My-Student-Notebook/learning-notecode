@@ -1,0 +1,58 @@
+_SASS_
+
+compilação => entrada : saida
+
+--watch => assistir alterações automaticamente.
+
+mixin => isola um conjunto de codigos...
+
+chamamos como ? => @include
+
+valores padrões => : valor
+
+parâmetros => ()
+
+comentários => //
+
+**Aninhamento**
+
+& => elemento pai
+
+@import => importar arquivos
+
+Arquitetura SCSS ;)
+
+darken(); => deixa mais escuro.
+
+ilghten(); => deixa mais claro.
+
+adjust-hue();
+
+saturate(); 
+
+complement();
+
+% => placeholder 
+
+importa como? => @extend
+
+#{} => valor string em uma variável e ser concatenada.
+
+- operações matemáticas. 
+
+@function => cria uma função.
+
+-documentação Sass
+
+"Boas práticas no CSS, boas práticas no Sass."
+
+_COMPASS_
+
+- Framework
+- Comentários Automáticos
+- Modelos Prontos
+-Sprites Automáticos
+
+Sprites => conjunto de imagens.
+
+$<nome da pasta>-spacing => espaçamento em um sprite

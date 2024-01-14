@@ -1,0 +1,39 @@
+npm install grunt --save-dev ~~> instala o grunt.
+
+--save-dev ~~>  adiciona a depêndencia ao arquivo package.json
+
+grunt.loadNpmTasks('grunt-contrib-copy'); ~~> registra tasks.
+
+target ~~> alvos.
+
+expand: quando true ativa o mapeamento dinâmico.
+
+caso não tenha expand ~~> 
+
+copy: {
+   public: {
+       files: [
+           {src: 'public/index.html', dest: 'dist/index.html'},
+           {src: 'public/css/index.css', dest: 'dist/css/index.css'},
+           /* demais arquivos */
+       ],      
+   }
+}
+
+globbing pattern ~~> **.
+
+minificação e concatenação ~~>
+
+<!-- build:tipo  endereço--> <!-- endbuild -->
+
+preprocessadores ~~> transformam arquivos em linguagens x para HTML, CSS  ou JS.
+
+Realtime linting
+
+task
+
+target
+
+subtasks
+
+Livereload

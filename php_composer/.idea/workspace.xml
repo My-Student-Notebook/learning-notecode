@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f6630fd1-fdb7-411d-9852-8fab3e442e44" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Projeto" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1WCYjeedk19VRqQus4ALY75Tv5S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\humba\Google Drive\Arquivos Sectoriais (2019 - 2029)\Alura\PHP - Composer\Projeto\vendor\phan\phan\.phan" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6630fd1-fdb7-411d-9852-8fab3e442e44" name="Default Changelist" comment="" />
+      <created>1578655179285</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578655179285</updated>
+      <workItem from="1578655184699" duration="17214000" />
+      <workItem from="1578693001547" duration="406000" />
+      <workItem from="1578693475602" duration="2808000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="430" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578657543149">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="430" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1578657543149" />
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1578661654547">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1578661654547" />
+    <state x="441" y="235" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1578660641025">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="441" y="235" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1578660641025" />
+    <state x="460" y="277" key="ComposerInitDialogKey" timestamp="1578656026451">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="460" y="277" key="ComposerInitDialogKey/0.0.1366.728@0.0.1366.728" timestamp="1578656026451" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1578695686687">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578695686687" />
+    <state x="313" y="179" key="NewPhpClassDialog" timestamp="1578661472394">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="313" y="179" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1578661472394" />
+    <state x="518" y="288" key="NewPhpFileDialog" timestamp="1578666890644">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="518" y="288" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1578666890644" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1578693476260">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578693476260" />
+  </component>
+</project>

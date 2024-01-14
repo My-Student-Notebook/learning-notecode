@@ -1,0 +1,23 @@
+gulpfile => arquivo de config do gulp.
+
+gulp.src => pasta de leitura.
+
+gulp.dest => pasta de destino.
+
+.pipe => liga as funções.
+
+.task() => tarefa do gulp.
+
+gulp-imagemin
+
+gulp-clean
+
+gulp-concat
+
+browser-sync
+
+gulp roda tudo assincrono.
+
+gulp.start() => tarefas iniciais.
+
+browserslist

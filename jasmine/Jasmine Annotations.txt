@@ -1,0 +1,23 @@
+SPEC => teste;
+
+SRC => código fonte;
+
+describe("o que será testado");
+
+it("descricao do teste");
+
+expect();
+
+toEqual();
+
+classes de equivalência;
+
+nome de testes claros;
+
+beforeEach;
+
+afterEach;
+
+Test Data Buider.
+
+Test Drive Development.

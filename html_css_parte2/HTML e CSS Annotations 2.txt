@@ -1,0 +1,37 @@
+<a> = âncora -> cria um link entre páginas web.
+ 	- href="" -> busca o arquivo referente.
+
+<nav> = navegação dá página.
+
+display = transfoma o método de visualização.
+
+font-weight = peso da fonte.
+
+text-decoration = modifica a decoração do texto.
+
+caracteres especiais = Unicode.
+text-transform = modifica a formatação do texto.
+
+position = define a posição do elemento em relação á outra.
+
+**posicionamentos static, relative e absolute.**
+
+<main> = conteúdo principal.
+
+borda:
+
+-tamanho
+-tipo
+-cor
+
+border = criar uma borda.
+
+border-radius = arrendondar a borda.
+
+hover = comportamento quando o mouse estiver sobre o item.
+
+active = comportamento quando o mouse estiver pressionando o item.
+
+<footer> = rodapé da página
+
+Caracteres Especiais = Unicode

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Projeto/src" isTestSource="false" packagePrefix="Alura\Leilao\" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/phpunit/php-token-stream" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/Projeto/vendor/webmozart/assert" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

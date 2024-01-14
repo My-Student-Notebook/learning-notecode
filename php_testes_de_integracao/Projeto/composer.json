@@ -1,0 +1,8 @@
+{
+    "name": "humba/php",
+    "type": "library",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "8"
+    }
+}

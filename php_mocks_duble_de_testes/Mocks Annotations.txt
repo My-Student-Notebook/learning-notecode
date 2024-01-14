@@ -1,0 +1,34 @@
+Classes com o mesmo nome usar 'as' para nomear-lá
+assentCount => verifica a quantidade de itens é igual ao do objeto
+essentEquals => verifica se o valor é igual ao esperado
+Classes de testes => <nome da classe>Test
+Toda public function começa com 'test' em uma classe de testes
+Mock = falso
+vendor\bin\phpunit => comando para executar testes
+createMock(nome da classe) => cria um mock
+method() => cria um método
+willReturn() => vai retornar
+getMock()
+getMockBuider(nome da classe) => constroi um mock e presonaliza
+
+Que existem tipos diferentes de dublês de testes:
+
+    Dummy
+    Fake
+    Stub
+    Spy
+    Mock
+
+mail() => envia um email
+->willThrowException() => lança uma excessão
+->willReturnCallback() => implementação de um método
+
+não é uma boa prática criar metodos estáticos
+
+    Que métodos estáticos dificultam os nossos testes, já que não podemos fazer a injeção de dependências
+
+    Que chamadas ao sistema podem ser difíceis de testar se não utilizarmos injeção de dependências
+
+    Que um código bem escrito é geralmente mais facilmente testável
+
+    Que um código difícil de testar é um bom indicador de um código "mal escrito"

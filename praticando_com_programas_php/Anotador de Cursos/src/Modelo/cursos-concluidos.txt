@@ -1,0 +1,16 @@
+LISTA DE CURSOS JA FINALIZADOS ANTERIORMENTE:
+Logica de Programacao I: Os primeiros programas com Javascript e HTML
+Logica de Programacao II: Pratique com desenhos, animacoes e um jogo
+Minecraft: Estruturas logicas com Redstone
+C I: Introducao a linguagem das linguagens
+C II: Avancando na linguagem
+C III: Recursos avancados da linguagem
+Introducao ao PHP: Primeiros passos com a linguagem
+Avancando com PHP: Arrays, strings, funcao e web
+PHP I/O: Trabalhando com arquivos e streams
+PHP: Manipulando colecoes com arrays
+Orientacao a objetos com PHP: Classes, Metodos e Atributos
+Avancando com orientacao a objetos com PHP: Heranca, Poliformismo e Interfaces
+PHP Exceptions: Tratamento de erros
+PHP Composer: Dependencias, autoload e publicacao
+PHP Brasil: Validacao de dados no padrao nacional

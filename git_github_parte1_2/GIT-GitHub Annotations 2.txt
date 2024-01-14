@@ -1,0 +1,43 @@
+Open Source Initiative (OSI)
+Issues => Problemas, Sugestões ou Perguntas
+Fork => Cópia de um repositório
+Pull Requests => Pedido de Envio de Modificação
+git rebase -i <~número de commits à serem unidos> ou <o posterior a seleção de commits que serão unificados>
+
+pick = manter separado
+s = unificar
+
+git cherry-pick <hash>  => seleção a dedo de um hash específico
+
+git bisect start => realizar uma busca para voltar ao commit com respectiva alteração
+git bisect bad <hash ou branch> => a partir de onde o código não estava bom
+git bisect good <hash> => a partir de onde o código estava bom
+git bisect reset => finaliza uma busca para voltar ao commit com respectiva alteração
+git show  <hash> => mostra todas as alterações feitas no commit
+git blame <arquivo> => ver o responsável por cada linha de um arquivo
+
+**recomendado que a branch master tenha todo o código de produção finalizado**
+
+git branch -d => para deletar um branch existente
+git branch -D => quando a branch tiver commits a frente da branch master
+
+hotfix = correção de bugs
+
+Git Flow => padrão de organização de branchs (master - hotfix - developerment - features - releases)
+
+Abrir arquivo no Git => cat
+Criar arquivo no Git => vim
+Permissão para executar um arquivo no Git => chmod u+x <arquirvo>
+
+Gti hooks => realizadores de ação antes ou depois de uma ação de forma automática
+
+workdir => copias dos arquivos enviados
+
+--git-dir => diretório
+--work-tree => cópias dos arquivos
+checkout -f => força o checkout e atualiza o estado no Git
+
+deploy automático => salvamento automático
+-f = 
+
+shell script

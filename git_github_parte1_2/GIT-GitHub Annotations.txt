@@ -1,0 +1,34 @@
+git init
+git init --bare
+git status
+git remote add
+git remote remove
+git remote
+git log --oneline
+git log -p
+git log
+git commit -m <mensagem>
+git commit (finalizar erro de conflito) => menge/rebase 
+git branch <nome>
+git checkout <nome>
+git checkout -b <nome>
+git add .
+git add <nome>
+git merge <nome da branch>
+git rebase <nome da branch>
+git log --graph
+salvar mensagem => :x
+git checkout -- <arquivo>
+git reset HEAD <arquivo> (após commitar um arquivo e desejar desfazer alteração)
+git revert <hash> => todo ou os 6 ou 7 primeiros caracteres
+git stash (salva  arquivos de forma temporária)
+git stash apply <número da stash> ( aplica o que foi salvo anteriormente)
+git stash drop (remove o arquivo do stash)
+git stash pop (stash apply e stash drop juntos)
+git checkout <nome do commit(código)>
+git diff <commit1 . . commit2> => . . = até
+git log -n <qtd de commits>
+git tag -a <nome da tag> => adicionar uma tag
+git push local <tag>
+
+**criar uma nova branch caso necessário salvar um backup de um commit antigo**

@@ -1,0 +1,47 @@
+Todo site tem um protótipo antes de ser codificado
+
+assets => arquivos estáticos.
+
+normalize.css => tira os padrões dos navegadores.
+
+reset.css => complementa o normalize.css.
+
+desenvolvimento de um projeto => de cima para baixo.
+
+evitar deixar amarrado o CSS com trechos HTML. 
+
+É uma boa prática separar cada função do projeto em um arquivo CSS separado. => melhora a manutenção.
+
+_ATOMIC__DESIGN_
+
+=> ÁTOMO =>tag HTML.
+
+=>MOLÉCULAS => vários átomos.
+
+=>ORGANISMOS => várias moléculas.
+
+=>TEMPLATES => vários organismos.
+
+=>PÁGINAS => vários templates.
+
+p.s => elemento composto => cria uma pasta.
+
+	=> elemento simples => deixa na raiz.
+
+_BEM_
+
+block__element--modifier
+
+-> não se aplica aos arquivos CSS.
+
+----------------------------------------------------------
+
+./ => entrar no diretório.
+
+../ => sair de um diretório.
+
+---------------------------------------------------------
+
+colocar as propriedades de ordem alfabética.
+
+imagens ilustrativas não precisam estar direto no HTML.

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="76e84d5f-49ff-4b80-8138-b0d3af98f3e5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/Projeto/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/Projeto/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1Wlb8wAtTxEgOgyl9U49T6YKtU3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Cursos-Alura\PHP e XDebug\Projeto" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76e84d5f-49ff-4b80-8138-b0d3af98f3e5" name="Default Changelist" comment="" />
+      <created>1579726973426</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579726973426</updated>
+      <workItem from="1579726982316" duration="3798000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="515" y="275" key="NewPhpFileDialog" timestamp="1579729132946">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="515" y="275" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1579729132946" />
+    <state x="375" y="175" key="com.intellij.ide.util.TipDialog" timestamp="1579726983742">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="375" y="175" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1579726983742" />
+  </component>
+</project>

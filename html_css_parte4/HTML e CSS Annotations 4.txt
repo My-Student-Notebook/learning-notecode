@@ -1,0 +1,77 @@
+<section> = divisão que complexamente faz total sentido entre si.
+
+<iframe> = incorpora uma página em outra página.
+
+_CSS_ 
+
+nome de classes => balanço entre genérico e específico.
+
+em => tamanho base em pixels.
+
+float => cria uma sombra de layout.
+
+clear => limpa o float.
+
+line-height => altura da linha.
+
+**pseudo-elementos**
+
+:first-child => primeiro da hieraquia.
+
+:last-child => último da hieraquia.
+
+nth-child(x) => qualquer um da hieraquia.     x => posição.
+
+:first-letter => primeira letra é selecionada.
+
+:first-line => primeira linha é selecionada.
+
+:after => o que pode ser usado vem depois do elemento.
+
+:before => o que pode ser usado vem antes do elemento.
+
+ *atributo => content: "" => conteúdo. 
+
+**gradiente**
+
+linear-gradrient(inclinação , cores) => cria um gradiente linear.
+
+radial-gradrient(cores) => cria um gradiente radial.
+
+**recursos_avançados**
+
+">" => filhos diretos da classe pai.
+
+"+" => próximo irmão.
+
+"~" => todos com mesma declaração.
+
+:not() => todos que não são aquilo que é declarado no parámetro.
+
+**cálculos_com_CSS_**
+
+calc(proporção operação valor) => realiza um cálculo. 
+
+**opacidade e sombra**
+
+opacity => cria uma opacidade sob o elemento. 
+
+	P.S. => vai de 1 a 0.
+
+rgba() => gera opacidade em cores.
+
+box-shadow => cria uma sombra.
+
+*eixo X e Y e um efeito e uma aproximação e uma cor como parâmetro.
+
+*inset => a partir do tamanho do elemento cria uma sombra interna.
+
+text-shadow => cria sombras em textos.
+
+**adaptação_web**
+
+@media => faz a busca para adaptação.
+
+screen => tela.
+
+Design Responsivo.

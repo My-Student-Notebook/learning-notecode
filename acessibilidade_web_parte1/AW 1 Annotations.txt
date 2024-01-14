@@ -1,0 +1,55 @@
+Autismo diferente de deficiência.
+
+ AUTISMO:
+
+Evitar cores muito fortes.
+
+Facilitar o entendimento.
+
+Evitar textos grandes.
+
+Link com cara de link.
+
+SURDEZ:
+
+Usar imagens.
+
+Usar outras alternativas de comunicação.
+
+Usar formulários.
+
+DISLEXIA:
+
+é um transtorno de visão.
+
+Evitar textos justificados e centralizados e longos.
+
+Evitar estilos nos textos.
+
+Usar textos para relembrar os dislexos.
+
+Usar sugestões como ajuda aos dislexos.
+
+Evitar a troca automática de carosel.
+
+BAIXA VISAO:
+
+É diferente de cego.
+
+Evitar contrastes ruins.
+
+**Contrast Checker**
+
+Evitar esconder informações.
+
+Evitar o bloqueio de zoom no mobile.
+
+DEF. FÍSICO:
+
+Estruturas maiores.
+
+Relação de pertencimento.
+
+Evitar pop-ups e alerts ninjas.
+
+Fornecer atalhos.

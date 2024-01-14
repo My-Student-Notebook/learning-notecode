@@ -1,0 +1,232 @@
+ls | grep -p ".*png"
+
+meta-char
+
+. o "ponto" que significa qualquer char
+
+* o asterisco que serve para definir uma quantidade de chars, zero ou mais vezes
+
+{e } as chaves que servem para definir uma quantidade de caracteres específicas que é desejado encontrar
+
+CSVs => separa infos por virgula.
+
+Quantifier
+
+ex: \d [5]]
+
+Regex Engine
+
+classe de caracteres = []
+
+quantifier Ganancioso ou preguiçoso
+
+* meta-char => \. \/
+ * quantifier => {2}
+ * a virgula como definidor de limite e quantidade.
+ * ? => não é obrigatório.
+ * \d => digito numerico.
+ * \s => digito whitespaces.
+ * [] => classes de digitos.
+ * + => 1 ou mais vezes.
+ * * =. 0 ou mais vezes.
+ * ? - zero ou uma vez.
+ * * - zero ou mais vezes.
+ * + - uma ou mais vezes.
+ * {n} - exatamente n vezes.
+ * {n,} - no mínimo n vezes.
+ * {n,m} - no mínimo n vezes, no máximo m vezes.
+ * \w => qualquer numero ou letra.
+ * \b => word boundary. (âncora)
+ * ^ => inicio de uma expressão.
+ * $ => fim de uma expressão.
+ * \B => non-word boundary.
+ * () => grupos Regex.
+ * ?: => non-capturing-group (não retorna o valor).
+ * | => ou um ou outro opção.
+
+JS__
+
+regExp(regex, flags); - dinâmico ou forma literal => / expressão regular /flags - fixo.
+
+verificar se existe a regex => variavel.text(TARGET);
+
+HTML__
+
+validação de inputs.
+
+RUBY__
+
+regex = /(\d\d)(\w)/
+
+alvo = "11a22b33c"
+resultado = regex.match(alvo)
+
+puts resultado[0]
+"11a"
+
+puts resultado[1]
+"11"
+puts resultado[2]
+"a"
+
+puts resultado.begin 2 #inicio do grupo a
+2
+puts resultado.end 2 #fim do grupo a
+3
+
+> regex = /(\d\d)(\w)/ #dois grupos
+> alvo = "12a34b56c"
+> resultados = alvo.scan regex
+=> [["12", "a"], ["34", "b"], ["56", "c"]]
+
+> resultados[2][1]
+=> "c"
+
+cpfLimpo = "111.222.333-96".gsub(/[.-]/,"")
+puts cpfLimpo
+11122233396
+
+cpf = "111.222.333-96"
+cpf.gsub!(/[.-]/,"")
+puts cpf
+"11122233396"
+
+PHP__
+
+$string = '2007-12-31';
+
+$string = 'Setembro 21';
+$regex = '~(\w+)\s(\d+)~';
+$novoTexto = '$2 de $1';
+
+$resultado = preg_replace($regex, $novoTexto, $string);
+echo $resultado; // 21 de Setembro
+
+PYTHON__
+
+>>> import re
+>>> regex = re.compile(r'(\d\d)(\w)')
+>>> alvo = '11a22b33c'
+>>> resultado = re.findall(regex, alvo)
+>>> print resultado
+[('11', 'a'), ('22', 'b'), ('33', 'c')]
+>>> resultado[0]
+('11', 'a')
+>>> resultado[1]
+('22', 'b')
+>>> resultado[2]
+('33', 'c')
+>>> for grupo in resultado:
+...     print grupo
+... 
+('11', 'a')
+('22', 'b')
+('33', 'c')
+
+>>> for grupo in resultado:
+...     print grupo[0] + grupo[1]
+... 
+11a
+22b
+33c
+
+.NET__
+
+Regex regexp = new Regex(@"(\d{4})(-)(\d{2})(-)(\d{2})");
+
+MatchCollection resultados = regexp.Matches(alvo);
+            foreach(Match resultado in resultados)
+            {
+
+                string ano = resultado.Groups[1].Value;
+                string mes = resultado.Groups[3].Value;
+                string dia = resultado.Groups[5].Value;
+
+                string separador1 = resultado.Groups[2].Value;
+                string separador2 = resultado.Groups[4].Value;
+
+                Console.WriteLine(string.Format("{0}/{1}/{2}", dia, mes, ano));
+}
+
+using System.Text.RegularExpressions;
+
+namespace Rextester
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+           string alvo = "2007-12-31";
+           Regex regexp = new Regex(@"(\d{4})(-)(\d{2})(-)(\d{2})");
+
+            MatchCollection resultados = regexp.Matches(alvo);
+            foreach(Match resultado in resultados)
+            {
+
+                string ano = resultado.Groups[1].Value;
+                string mes = resultado.Groups[3].Value;
+                string dia = resultado.Groups[5].Value;
+
+                string separador1 = resultado.Groups[2].Value;
+                string separador2 = resultado.Groups[4].Value;
+
+                Console.WriteLine(string.Format("{0}/{1}/{2}", dia, mes, ano));
+            }
+        }
+    }
+}
+
+JAVA__
+
+Pattern pattern = Pattern.compile("(\\d{4})(-)(\\d{2})(-)(\\d{2})");
+
+if (matcher.matches()) {
+
+    String ano = matcher.group(1);
+    String mes = matcher.group(3);
+    String dia = matcher.group(5);
+
+    String separador1 = matcher.group(2);
+    String separador2 = matcher.group(4);
+
+    System.out.println(dia + separador1 + mes + separador2 + ano);
+}
+
+public class TestandoRegex {
+
+    public static void main(String[] args) {
+
+        String data = "2007-12-31";
+        Pattern pattern = Pattern.compile("(\\d{4})(-)(\\d{2})(-)(\\d{2})");
+        Matcher matcher = pattern.matcher(data);
+
+        if (matcher.matches()) {
+
+            String ano = matcher.group(1);
+            String mes = matcher.group(3);
+            String dia = matcher.group(5);
+
+            String separador1 = matcher.group(2);
+            String separador2 = matcher.group(4);
+
+            System.out.println(dia + separador1 + mes + separador2 + ano);
+        }
+    }
+}
+
+novaData.replaceAll("-", "/");
+
+novaData = novaData.replaceAll("-", "/");
+
+BASH__
+
+if [[ $DIGITO =~ [0-9] ]]; then
+    echo "$DIGITO é um numero entre 0 e 9"
+else
+    echo "$DIGITO não é um numero entre 0 e 9"
+fi
+
+for numero in {1..100}
+do
+    echo $numero
+done

@@ -1,0 +1,48 @@
+Não Existe Mobile.
+
+LAYOUT FLEXÍVEL
+
+-medidas flexíveis:
+
+1 => porcentagem
+
+2 => font-size flexível
+
+3 => em
+
+MEDIA QUERIES
+
+Layout Condicional
+
+decive-width/height = tamanho nativo da tela física
+
+frameworks responsivos
+
+brakepoints de conteúdo
+
+Debug
+
+viewport
+
+workflow
+
+weinre:
+
+npm install -g weinre
+
+
+ADAPTAÇÕES MAIORES
+
+iMAGENS => pixel fisico vs. DIP
+
+dPR
+
+dppx
+
+imagens compressivas
+
+SVG
+
+iCONS Fonts
+
+content parity

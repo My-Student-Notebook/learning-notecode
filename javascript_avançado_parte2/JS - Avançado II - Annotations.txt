@@ -1,0 +1,28 @@
+Reflect.apply => muda o contexto.
+
+FUNCTION => DINAMICO
+ARROW FUNCTION => LEXICO
+
+Proxy => é arbritário.
+
+arguments
+
+Factory
+
+REST
+
+DataBind
+
+JSON.parse
+
+Cada status é representado através de um inteiro. Os estados possíveis são:
+
+    0: requisição ainda não iniciada.
+    1: conexão com o servidor estabelecida.
+    2: requisição recebida.
+    3: processando requisição.
+    4: requisição concluída e a resposta esta pronta.
+
+Promise Model
+
+transpiler

@@ -1,0 +1,11 @@
+Usar spam para esconder visualmente mas não funcionamente.
+
+role => papel de um elemento.
+
+foco em modals.
+
+melhorar a usabilidade / acessibilidade do projeto.
+
+colocar na balança: usabilidade vs. acessibilidade.
+
+CSS => '+' => irmão direto.

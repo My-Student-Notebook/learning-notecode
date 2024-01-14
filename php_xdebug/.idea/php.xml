@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/Projeto/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/Projeto/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.3" />
+</project>

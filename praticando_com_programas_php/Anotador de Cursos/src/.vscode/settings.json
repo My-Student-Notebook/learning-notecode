@@ -1,0 +1,15 @@
+{
+    "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": true,
+    "intelephense.environment.phpVersion": "7.4.1",
+    "intelephense.files.maxSize": 100000000,
+    "intelephense.phpdoc.useFullyQualifiedNames": true,
+    "intelephense.telemetry.enabled": true,
+    "phpcs.executablePath": "",
+    "phpcs.trace.server": "messages",
+    "phpcs.enable": false,
+    "files.autoGuessEncoding": true,
+    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.tree.indent": 10,
+    "workbench.editor.revealIfOpen": true,
+    "workbench.settings.enableNaturalLanguageSearch": false
+}

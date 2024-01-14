@@ -1,0 +1,23 @@
+Variável => @nome: content.
+
+Compilar => lessc arquivo input .less arquivo output .css
+
+Dando opacidade a cores => fade.
+
+Deixando mais clara  a cor => lighten.
+
+Deixando mais clara  a cor => darken.
+
+.classe = classe CSS.
+
+& => direciona para seu desendente em aninhamento.
+
+Boas práticas no CSS, boas práticas no LESS.
+
+@import => importa arquivos.
+
+&:extends => extende e junta classes.
+
+media queries internos.
+
+operações matemáticas.

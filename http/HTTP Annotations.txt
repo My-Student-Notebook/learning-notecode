@@ -1,0 +1,62 @@
+HTTP => Hypertext Transfer Protocol. 
+ - Modelo Client-Server.
+ - Modelo Request-Response. 
+ - Estabelece regras de comunicação.
+ - Porta Padrão = 80.
+ - Stateless => não salva informações.
+-Sessão => tempo de navegação.
+- Request -> espera -> Resposta.
+
+HTTPS => Hypertext Transfer Protocol + SSL/TLS.
+ - Deixa a web segura.
+ - criptografia assimétrica e simétrica. 
+- Porta Padrão = 443.
+
+P2P => Peer - To - Peer. 
+- Cooperação entre cliente e servidor.
+
+DNS => Domain Name System.
+- Traduz o nome do domínio para o endereço IP.
+
+SMB => Server Message Block.
+- Utilizado para compartilhar arquivos dentro de uma rede local.
+
+URI => Uniform Resource Identifier.
+- identificam um recurso sem definir o endereço.
+
+URL => Uniform Resource Locator.
+- representa uma identificação de um recurso .
+
+URN => Uniform Resource Name.
+- segue também uma sintaxe bem definida.
+
+Um cookie é um pequeno arquivo de texto, normalmente criado pela aplicação web, para guardar algumas informações sobre usuário no navegador.
+
+Method:
+
+GET,
+POST,
+PUT,
+PATCH,
+DELETE.
+
+REST => padrão de arquitetura entre comunicações de aplicações.
+
+Cabeçalhos => Accept/ Content-Type.
+
+
+HTTP v2.0
+
+GZIP => compreensão de arquivos.
+
+Requisição e Resposta em Binário.
+
+HPACK => compreensão de dados.
+
+CIPTROGRAFIA => padrão.
+
+Cabeçalhos Stateful.
+
+Server Push.
+
+Multiplexação

@@ -1,0 +1,29 @@
+entry ~> ponto de entrada, primeiro modulo da aplicação.
+
+output ~> arquivos de saída.
+
+path ~> diretório.
+
+filename ~> nome do arquivo.
+
+module ~> modulos.
+
+test ~> testa.
+
+exclude ~> não usa.
+
+rules ~> regras.
+
+cada regra = objeto JS.
+
+use: usa itens,
+
+loader: processador.
+
+cross-env
+
+webpack dev server.
+
+FOUC.
+
+code splitting e lazy loading.

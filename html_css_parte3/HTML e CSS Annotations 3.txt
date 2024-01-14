@@ -1,0 +1,81 @@
+<form> = cria um formulário.
+
+<input> = entrada de informação do usuário.
+
+ -type="tipo" -> tipo da entrada.
+
+tipo => text = pega um texto.
+tipo => email = pega um email.
+tipo => tel = pega um telefone.
+tipo => submit= manda os dados.
+
+Alguns tipos de inputs para celular: email, tel, number, password, date, datetime, month e search.
+
+-value = "valor do submit" -> descreve o valor do input.
+
+-name = "grupo" -> cria um grupo.
+
+<label> = descreve o que deve estar no campo de input.
+
+-for="id" = inserir algo no input.
+
+<textarea> = o usuário possui a possibilidade de colocar mais de uma linha de texto.
+
+-cols="" => colunas de texto.
+
+-rows="" => linhas de texto.
+
+<select> = selector de opções.
+
+<option> = opções do selector.
+
+required = torna o campo obrigátorio.
+
+placeholder="sugestão" => coloca uma sugestão no campo.
+
+checked = torna uma sugestão pré selecionada.
+
+<fieldset> = divide as sessões de um formulário.
+
+<legend> = título de um parágrafo.
+
+alt="" = alternativa ao usuário.
+
+<table> = cria uma tabela.
+
+<tr> = uma linha de tabela.
+
+<td> = uma coluna de tabela.
+
+<thead> = cabeçalho de uma tabela.
+
+<th> = coluna de um cabeçalho de uma tabela.
+
+<tbody> = corpo de uma tabela.
+
+<tfoot> = rodapé de uma tabela.
+
+<tf> = coluna de um rodapé de tabela.
+
+colspan=X = onde x é a quantidade de colunas a mesclar.
+
+_CSS_
+
+"," => replica a mesma configuração para vários métodos.
+
+força de seleção de tags <=> HIERAQUIA no _CSS_
+
+*tag = 1;
+**class = 10;
+***id = 100;
+****inline=1000;
+
+transition = realiza uma transição.
+
+cursor = define o conportamento do ponteiro.
+
+transform = transforma as propriedades do objeto.
+
+scale() = escala.
+
+rotate() = grau de rotação.

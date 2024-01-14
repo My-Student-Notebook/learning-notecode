@@ -1,0 +1,42 @@
+display: grid;
+
+grid_template_areas=> define as areas de um template.
+
+Devemos definir as áreas na ordem que devem estar posicionadas na página, a definição foi feita na ordem correta.
+
+grid-template-columns=> define as colunas.
+
+grid-template-rows=> define as linhas.
+
+grid-column-start
+grid-column-end
+grid-row-start
+grid-row-end
+grid-column 
+grid-row
+
+grid-gap => espaçamento.
+
+**posicionamento das colunas**
+
+    Definir um template e criar áreas.
+    Definir o tamanho das colunas.
+    Definir o tamanho das linhas.
+    Posicionar os elementos em suas áreas.
+
+    Definir um template sem áreas.
+    Definir a quantidade das colunas.
+    Definir a quantidade das linhas.
+    Dizer para os elementos onde devem começar e terminar.
+    Definir espaçamento entre linhas e colunas.
+
+    Que é possível haver um grid dentro de outro.
+    Calcular largura.
+
+    Centralizar conteúdo.
+    Adicionar bordas.
+    Aplicar estilo no hover do mouse.
+    Adicionar símbolo de copyright.
+
+    Utilizar media queries para deixar site responsivo.
+    Aplicar diferentes regras para diferentes telas.

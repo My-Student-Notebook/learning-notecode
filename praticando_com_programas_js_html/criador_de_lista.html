@@ -1,0 +1,52 @@
+<meta charset="UTF-8">
+<b></b>
+<h1></h1>
+<script>
+
+	function pulaPoucaLinha(){
+		document.write("<br>");
+	}
+
+	function pulaMuitaLinha(){
+		document.write("<br><br>");
+	}
+
+	function mostra(frase){
+		document.write(frase);
+	}
+
+
+    function titulo(){
+        
+        var texto = prompt("Qual é o título da lista? Escreva no espaço abaixo");
+        if(texto == null){
+            mostra("<h1><b>Sem título</b></h1>");
+        }else{
+            mostra("<h1><b>" + texto + "</b></h1>"); 
+        }
+        
+    }
+
+        titulo();
+
+        var lista = [];
+
+        var limite = parseInt(prompt("Insira a quantidade de Itens que deseja colocar na sua lista"));
+
+    function mostraConteudo(){
+
+        var x = 0;
+    
+        while(lista.length <= limite - 1){
+           var item = prompt("Insira o nome do item");
+           lista.push(item);
+                    mostra(lista[x]);
+                    pulaPoucaLinha(); 
+                    x++;
+        }
+    }
+
+
+mostraConteudo();
+
+</script>

@@ -1,0 +1,9 @@
+.flexContainer {
+    display: flex;
+  }
+  .flexItem {
+    width: 200px;
+  }
+  .flexItem:first-child {
+    flex-shrink: 2;
+  }

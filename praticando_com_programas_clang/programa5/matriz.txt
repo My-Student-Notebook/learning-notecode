@@ -1,0 +1,66 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <Windows.h>
+#include <math.h>
+#include "matrizes.h"
+
+int escolha;
+
+void speed1() {
+	Sleep(500);
+}
+
+void speed2() {
+	Sleep(300);
+}
+
+void speed3() {
+	Sleep(100);
+}
+
+void ui0() {
+
+	printf("ESCOLHA UMA VELOCIDADE DE EXECUCAO!\n");
+	printf("OPCOES => 1 =>> DEVAGAR\n");
+	printf("       => 2 =>> MEDIO\n");
+	printf("       => 3 =>> RAPIDO\n");
+
+}
+
+void si0() {
+
+	scanf("%d", &escolha);
+
+	switch (escolha) {
+	case 1:
+		speed3();
+		break;
+	case 2:
+		speed2();
+		break;
+	case 3:
+		speed1();
+		break;
+	default:
+		printf("TENTE NOVAMENTE, NUMERO INEXISTENTE!\n");
+		ui0();
+		break;
+	}
+
+}
+
+void imprime_matriz() {
+
+	ui0();
+
+	for (int r = 0; r < 4; r++) {
+		for (int s = 0; s < 16; ++s) {
+			printf("%c", matriz1[r][s]);
+			si0();
+		}
+	}
+
+}
+int main() {
+	imprime_matriz();
+}

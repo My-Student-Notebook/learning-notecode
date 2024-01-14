@@ -1,0 +1,47 @@
+<meta charset="UTF-8">
+
+<script>
+	
+	function multiplicaAlgumasVezes (n){
+        while(multiplicador <= n){
+        pulaMuitaLinha ();
+		mostra (tabuadaDoNumero * multiplicador);
+               multiplicador++;
+        pulaPoucaLinha ();	
+        }
+	}  
+    
+    function pulaPoucaLinha (){
+    	document.write("<br>")
+    }
+
+	function pulaMuitaLinha (){
+		document.write("<br><br>");
+	}
+
+	function mostra (frase){
+		document.write(frase);
+	}
+
+	var multiplicador = 1;
+
+	function multiplica (){
+
+		pulaMuitaLinha ();
+		mostra (tabuadaDoNumero * multiplicador);
+               multiplicador++;
+        pulaPoucaLinha ();
+	}
+
+
+	var nomeDoUsuario = prompt("Qual o seu nome?");
+
+	var tabuadaDoNumero = parseInt(prompt(nomeDoUsuario + ", qual número você deseja ver a tabuada?"));
+ 
+  	var multiplicacaoDoUsuario = parseInt(prompt(nomeDoUsuario + ", quantas vezes você quer multiplicar o " + tabuadaDoNumero + "."));
+
+		mostra(nomeDoUsuario + ", a tabuada do " +  tabuadaDoNumero + " é:");
+
+			multiplicaAlgumasVezes(multiplicacaoDoUsuario);
+    
+</script>

@@ -1,0 +1,71 @@
+alert(); => exibe um pop-up.
+
+console.log(); => escreve no console.
+
+document => link entre o HTML e o JavaScript.
+
+var => variavel.
+
+.textContent => conteúdo de uma tag.
+
+.querySelector => seleciona uma tag ou elemento.
+
+.querySelectorAll => seleciona mais de uma tag ou elemento.
+
+.toFixed => define um limite de casas decimais.
+
+.style => modifica o estilo.
+
+.classList => dinamiza classes.
+
+.length => conteúdo e tamanho do elemento.
+
+**padrão camelCase**
+
+.addEventoListener(); => adiciona eventos de escutar.
+
+event.previneDefault(); => previne o comportamento padrão.
+
+.value => valor de um campo.
+
+.appendChild(); => Coloca outras tags dentro de outra.
+
+event shoutcut.
+
+{} => cria um objeto.
+
+.reset => limpa as altrações feitas anteriormente.
+
+.push => empurra para algum lugar.
+
+.innerHTML => controla um item interno de um HTML.
+
+.forEach => loop de array.
+
+.remove => remove um item do HTML.
+
+this => elemento dono do evento. 
+
+.target => alvo do evento.
+
+.parentNode => no pai.
+
+setTimeOut(); => espera um tempo.
+
+evento =>>> 'click' / 'dblclick' / 'input' / 'load' .
+
+regExp();
+
+XMLHttpRequest();
+
+=>    .open
+
+=>    .send
+
+XML => interface de exibição.
+
+JSON => Java Script Object Notation.
+
+AJAX => processamento assincrono.
+
+JSON.parse();

@@ -1,0 +1,37 @@
+<meta charset="UTF-8">
+
+ <input/>
+
+ <button><h3>Adivinhe o número</h3></button>
+<script>
+	
+	function pulaLinha(){
+
+		document.write("<br>");		
+  }
+
+	function mostra(frase){
+
+		document.write(frase);
+		pulaLinha();
+  }
+   
+    var input = document.querySelector("input")
+    input.focus();
+  
+    var numeroSecreto = Math.round(Math.random() * 10);
+
+    var tentativas = 0;
+
+  function verifica(){
+  
+    if(input.value == numeroSecreto){
+      alert("Você VENCEU a partida!")
+    }else
+      alert("Você PERDEU, tente novamente")
+      input.focus();
+  
+} 
+   var button = document.querySelector("button");
+  button.onclick = verifica;
+</script>

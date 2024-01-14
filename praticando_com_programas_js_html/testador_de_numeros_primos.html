@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<input id = "input" />
+<br>
+<input id = "input2" />
+<br>
+<button>OK</button>
+
+<script>
+
+	function pulaPoucaLinha(){
+		document.write("<br>");
+	}
+
+	function pulaMuitaLinha(){
+		document.write("<br><br>");
+	}
+
+	function mostra(frase){
+		document.write(frase);
+		pulaMuitaLinha();
+	}
+
+	function executa() {
+				
+				var input = document.querySelector("#input").value;
+				var input2 = document.querySelector("#input2").value;
+				//alert("input = " + input);
+				//alert("input2 = " + input2);
+				var n1 = (input / input2);
+				var n2 = Math.round(input / input2);
+
+				if(n1 == n2){
+					alert("O seu divisor é coerente!");
+				}else{
+					//alert("n1 = " + n1);
+					//alert("n2 = " + n2);
+					alert("O seu divisor não é bom!");
+				}
+	}
+
+	var button = document.querySelector("button");
+	
+	button.onclick = executa;
+
+</script>
+</body>
+</html>

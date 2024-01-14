@@ -1,0 +1,36 @@
+MVC => Model View Content.
+
+class => cria uma classe.
+
+constructor() => atributos inicializadores.
+
+métodos.
+
+freeze(); => congela o elemento.
+
+programação defensiva.
+
+bind(); => prende um elemento.
+
+var => sem escopo de bloco.
+
+let => tem escopo de bloco.
+
+split() => separa strings por um parametro.
+
+join() => junta strings por um parametro.
+
+arrow function.
+
+SPA (Single Page Applications).
+
+template strings
+
+static functions
+
+regex: \D => só letras.
+		\d => tudo.
+
+concat
+
+super => classe pai
